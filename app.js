@@ -71,8 +71,9 @@ app.get('/about', routes.about);
 
 app.get('*', routes.notFound);
 
+var port=Number(process.env.PORT || 3000);
 
-app.listen(3000, function(){
-	console.log("Your Server is running on port 3000");
 
+app.listen(port, function (){
+		console.log('Express listening on port ' + port);
 });
