@@ -43,7 +43,7 @@ app.get('/contact', routes.contact);
 			 mailOptions = {
 		      from: req.body.name + ' &lt;' + req.body.email + '&gt;', //grab form data from the request body object
 		      to: 'level1mediamarketing@gmail.com',
-		      subject: 'Website contact form',
+		      subject: req.body.subject,
 		      text: req.body.message
 		  };
 
@@ -71,6 +71,8 @@ app.get('/about', routes.about);
 
 app.get('*', routes.notFound);
 
+
+// for heroku deployment
 var port=Number(process.env.PORT || 3000);
 
 
