@@ -43,7 +43,7 @@ app.get('/contact', routes.contact);
 			 mailOptions = {
 		      from: req.body.name + ' &lt;' + req.body.email + '&gt;', //grab form data from the request body object
 		      to: 'level1mediamarketing@gmail.com',
-		      subject: req.body.subject,
+		      subject: req.body,
 		      text: req.body.message
 		  };
 
