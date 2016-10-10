@@ -650,19 +650,26 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-bottom: 7em;
 }
 .project-content .col-forth {
-  width: 25%;
+  width: 33.3%;
   float: left;
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.col-forth img{
+  max-width: 100%;
+
+  width: 100%;
+
+}
 @media screen and (max-width: 1200px) {
   .project-content .col-forth {
-    width: 25%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 992px) {
   .project-content .col-forth {
-    width: 50%;
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
