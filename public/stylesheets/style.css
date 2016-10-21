@@ -326,6 +326,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-cover {
   height: 800px;
+background-image:url(public/images/img.jpg);
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -335,6 +336,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover .overlay {
   z-index: 0;
+
   position: absolute;
   bottom: 0;
   top: 0;
