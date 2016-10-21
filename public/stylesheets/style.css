@@ -258,6 +258,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: top center;
   background-repeat: no-repeat;
   position: relative;
+  background-image: url(images/img.jpg);
 }
 
 .fh5co-bg {
@@ -266,6 +267,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   width: 100%;
   float: left;
+    background-image: url(images/img.jpg);
 }
 
 .fh5co-video {
@@ -307,8 +309,9 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+
+  bottom: 0
+    background: rgba(0, 0, 0, 0.5);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -326,7 +329,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-cover {
   height: 800px;
-background-image:url(public/images/img.jpg);
+background:url(images/img.jpg);
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -335,14 +338,14 @@ background-image:url(public/images/img.jpg);
   width: 100%;
 }
 .fh5co-cover .overlay {
-  z-index: 0;
+
 
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-  background: tomato;
+  background-color: tomato;
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
